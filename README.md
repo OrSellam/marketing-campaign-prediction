@@ -16,7 +16,7 @@ Machine Learning: Logistic Regression, SVM, Decision Trees, Random Forest
 Model Tuning: GridSearchCV, K-Fold Cross Validation
 
 ## Workflow
-1. Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA)
   
   Examined dataset size (#rows, #tables, column types).
   
@@ -32,7 +32,7 @@ Model Tuning: GridSearchCV, K-Fold Cross Validation
   
   Visualized feature distributions and relationships to target variable.
   
-2. Data Preprocessing
+### 2. Data Preprocessing
   
   Converted categorical variables into binary features (one-hot encoding).
   
@@ -48,7 +48,7 @@ Model Tuning: GridSearchCV, K-Fold Cross Validation
   
   Applied feature selection to reduce dimensionality and improve model efficiency.
   
-3. Modeling
+### 3. Modeling
   
   Goal: maximize AUC score.
   
@@ -66,7 +66,7 @@ Model Tuning: GridSearchCV, K-Fold Cross Validation
   
   Selected SVM as the best performing model, restricted to the top 25 features.
   
-4. Model Evaluation
+### 4. Model Evaluation
   
   Generated Confusion Matrix for classification results.
   
@@ -76,7 +76,7 @@ Model Tuning: GridSearchCV, K-Fold Cross Validation
   
   Ensured model robustness before applying to test data.
   
-5. Final Prediction
+### 5. Final Prediction
   
   Applied same preprocessing steps to the test set.
   
@@ -88,6 +88,4 @@ Model Tuning: GridSearchCV, K-Fold Cross Validation
 ## Key Results
   Best model: Support Vector Machine (SVM) with tuned hyperparameters.
   
-  Achieved strong AUC score, indicating reliable classification performance.
-  
-  Reduced feature space to the most impactful 25 predictors.
+  Achieved strong AUC score 73.5%, indicating reliable classification performance.
