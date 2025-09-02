@@ -1,6 +1,6 @@
 # Telecom Marketing Campaign Prediction
 
-## This project focuses on predicting whether a customer will subscribe to a new telecom plan based on past campaign interactions and customer attributes. It demonstrates a full data science workflow, from data exploration through feature engineering, model selection, and evaluation.
+ This project focuses on predicting whether a customer will subscribe to a new telecom plan based on past campaign interactions and customer attributes. It demonstrates a full data science workflow, from data exploration through feature engineering, model selection, and evaluation.
 
 ### Project Overview 
 The dataset includes customer information, interaction history, and results of past marketing campaigns.
