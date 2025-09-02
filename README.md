@@ -18,9 +18,7 @@ Model Tuning: GridSearchCV, K-Fold Cross Validation
 ## Workflow
 ### 1. Exploratory Data Analysis (EDA)
   
-  Examined dataset size (#rows, #tables, column types).
-  
-  Generated descriptive statistics (.describe()) for numerical features.
+  Generated descriptive statistics for numerical features.
   
   Summarized categorical distributions (e.g., job type, marital status, education).
   
